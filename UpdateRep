@@ -1,0 +1,7 @@
+Here's the basic pattern:
+commit your changes locally:
+$ git add .
+$ git commit -m "made some changes"
+then push them to github. In the code below, the first line is only needed the first time you push to github.
+$ git remote add origin git@github.com:yourusername/yourreponame.git
+$ git push origin master
